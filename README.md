@@ -16,13 +16,14 @@ A simple command-line interface (CLI) to manage tasks. Tasks are stored in a JSO
 - Mark tasks as in-progress or done.
 - List tasks by status.
 
-## Commands
+## Command to run in CL
 - Add a task:
   ```bash
-## Command to run in CLI 
   javac -cp .:json-*<putYourJarVersionHere>.jar TaskTrackerCLI.java
   java -cp libs/json-*<putYourJarVersionHere>.jar:src TaskTrackerCLI add "Task description"
 
-## Tip for fast development
+## Tip for easy development
 - Keep json jar in same folder as your main class eg. json-20240303.jar
+- Check tasks.json file for sample payload creation by program
+- Complete program is just one java file.
 
